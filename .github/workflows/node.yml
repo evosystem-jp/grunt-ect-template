@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: grunt less ect
     - name: Add label
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       if: ${{ github.event_name == 'pull_request' && github.actor == 'dependabot[bot]' }}
       with:
         script: |
