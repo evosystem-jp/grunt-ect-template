@@ -2,7 +2,7 @@
 grunt-ect template
 
 ## 使用nodejs
-`10.16.3 LTS`
+`v18.18.2`
 
 ## grunt導入
 ```sh
